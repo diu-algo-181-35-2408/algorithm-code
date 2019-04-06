@@ -20,13 +20,13 @@ int main()
     printf("Vartex &  Edge : \n\n");
     for(i=0; i<size; i++)
     {
+        printf("%d --",i);
         for(j=0; j<size; j++)
         {
             if(matrix[i][j]==1)
-                printf("%d --- %d\n",i,j);
+                printf(">%d ",j);
         }
-         printf("\n");
+         printf("\n\n");
     }
     return (0);
 }
-
