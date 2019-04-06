@@ -17,7 +17,7 @@ int matrix[size][size]={
 int main()
 {
     int i=0,j=0;
-    printf("Vartex &  Edge : \n\n");
+    printf("Vertex &  Edge : \n\n");
     for(i=0; i<size; i++)
     {
         printf("%d --",i);
